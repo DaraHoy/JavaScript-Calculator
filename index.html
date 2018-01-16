@@ -4,59 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google icon fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <title>JS Calculator App</title>
 </head>
 <body>
-    <h1>Display [<span id='display'></span>]</h1>
-    <div class="keys">
-        <div class="key">
-            <kbd>0</kbd>
-        </div>
-        <div class="key">
-            <kbd>1</kbd>
-        </div>
-        <div class="key">
-            <kbd>2</kbd>
-        </div>
-        <div class="key">
-            <kbd>3</kbd>
-        </div>
-        <div class="key">
-            <kbd>4</kbd>
-        </div>
-        <div class="key">
-            <kbd>5</kbd>
-        </div>
-        <div class="key">
-            <kbd>6</kbd>
-        </div>
-        <div class="key">
-            <kbd>7</kbd>
-        </div>
-        <div class="key">
-            <kbd>8</kbd>
-        </div>
-        <div class="key">
-            <kbd>9</kbd>
-        </div>
-        <div class="key">
-            <kbd>+</kbd>
-        </div>
-        <div class="key">
-            <kbd>-</kbd>
-        </div>
-        <div class="key">
-            <kbd>/</kbd>
-        </div>
-        <div class="key">
-            <kbd>x</kbd>
-        </div>
-        <div class="key">
-            <kbd>CE</kbd>
-        </div>
-        <div class="key">
-            <kbd>Del</kbd>
-        </div>
+
+    <div id="calculator">
+        <div id="ansDisplay"><span id="ans">ans</span></div>
+        <div id="inputDisplay"><span id="input">2+2/6</span></div>
     </div>
+
+    <!-- CDN for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
